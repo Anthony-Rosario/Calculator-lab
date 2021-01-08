@@ -1,37 +1,33 @@
+//Handler Imports
+import { addClickHandler, subClickHandler, divClickHandler, mulClickHandler } from './handlers.js';
+
+
+
 // Addition Section
-import { myClickHandler } from './handlers.js';
-
-
 const button1 = document.getElementById('button');
 
-button1.addEventListener('click', myClickHandler);
+button1.addEventListener('click', addClickHandler);
 
 
 
 //Subtraction Section
-import { myClickHandlerSub } from './handlers.js';
-
 const subButton1 = document.getElementById('sub-button');
 
-subButton1.addEventListener('click', myClickHandlerSub);
+subButton1.addEventListener('click', subClickHandler);
 
 
 
 //Division Section
-import { myClickHandlerDiv } from './handlers.js';
-
 const divButton = document.getElementById('divbutton');
 
-divButton.addEventListener('click', myClickHandlerDiv);
+divButton.addEventListener('click', divClickHandler);
 
 
 
 //Multiplication section
-import { myClickHandlerMul } from './handlers.js';
-
 const mulButton1 = document.getElementById('mulbutton');
 
-mulButton1.addEventListener('click', myClickHandlerMul);
+mulButton1.addEventListener('click', mulClickHandler);
 
 
 

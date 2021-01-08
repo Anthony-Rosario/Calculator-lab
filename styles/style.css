@@ -25,11 +25,13 @@ body {
 
 header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 45px;
     background-color: hsla(224, 40%, 79%, 1);
-
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
     
 }
 
@@ -57,7 +59,29 @@ section {
 }
 
 
+.button {
+    border-radius: 15px;
+    color: lightseagreen;
+    font-weight: 700;
+    height: 30px;
+    width: 90px;
+    border-color: lightseagreen;
+}
 
+
+.button:hover {
+    background-color: black;
+    
+}
+
+
+input {
+    border: 1px solid rgb(83, 39, 187);
+}
+
+.calculon {
+    width: 345px;
+}
 
 
 

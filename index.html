@@ -9,40 +9,46 @@
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/futurama_413_talkshow_640x360.jpg">
+    
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        Calculator
+        <img src="./assets/futurama_413_talkshow_640x360.jpg" class="calculon">
+        
+        Calculon
     </header>
     <main>
         <section>
            <input id="input1" type="number" />
            +
            <input id="input2" type="number" />
-           <button id="button">Result</button>
+           <button id="button" class="button">Result</button>
            <div id="addResults"></div>
         </section>
         <section>
             <input id="divinput1" type="number" />
             /
             <input id="divinput2" type="number" />
-            <button id="divbutton">Result</button>
+            <button id="divbutton" class="button">Result</button>
             <div id="divResults"></div>
          </section>
          <section>
             <input id="sub-input1" type="number" />
             -
             <input id="sub-input2" type="number" />
-            <button id="sub-button">Result</button>
+            <button id="sub-button" class="button">Result</button>
             <div id="subResults"></div>
          </section>
          <section>
             <input id="mul-input1" type="number" />
             *
             <input id="mul-input2" type="number" />
-            <button id="mulbutton">Result</button>
+            <button id="mulbutton" class="button">Result</button>
             <div id="mulResults"></div>
          </section>
         </main>
