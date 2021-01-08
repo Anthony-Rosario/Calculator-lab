@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        Calculator
+    </header>
+    <main>
+        <section>
+           <input id="input1" type="number" />
+           +
+           <input id="input2" type="number" />
+           <button id="button">Result</button>
+           <div id="addResults"></div>
+        </section>
+        <section>
+            <input id="divinput1" type="number" />
+            /
+            <input id="divinput2" type="number" />
+            <button id="divbutton">Result</button>
+            <div id="divResults"></div>
+         </section>
+         <section>
+            <input id="sub-input1" type="number" />
+            -
+            <input id="sub-input2" type="number" />
+            <button id="sub-button">Result</button>
+            <div id="subResults"></div>
+         </section>
+         <section>
+            <input id="mul-input1" type="number" />
+            *
+            <input id="mul-input2" type="number" />
+            <button id="mulbutton">Result</button>
+            <div id="mulResults"></div>
+         </section>
+        </main>
+    <script type="module" src="handlers.js"></script>
+    <script type="module" src="app.js"></script>
+    <script type="module" src="utils.js"></script>
+</body>
+
+</html>
