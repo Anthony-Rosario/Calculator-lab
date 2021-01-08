@@ -32,8 +32,12 @@ header {
     background-color: hsla(224, 40%, 79%, 1);
     font-family: 'Roboto', sans-serif;
     font-style: italic;
+    text-shadow: 3px 4px 1px black;
+    color: rgb(252, 164, 2)
+    
     
 }
+
 
 main {
     display: grid;
